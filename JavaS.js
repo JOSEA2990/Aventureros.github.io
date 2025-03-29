@@ -10,7 +10,7 @@ const users = [
     const pass = document.getElementById( 'Password' ).value;
     if ( validation(user, pass) !== undefined ) {
     
-    window.open('Pantallas/indexP.html');
+    window.open('PANTALLAS/indexP.html');
     window.close('index.html');
     
     }
