@@ -20,7 +20,7 @@ const users = [
     }
 
 var swiper = new Swiper(".slide-content", {
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 30,
     pagination: {
         el: ".swiper-pagination",
