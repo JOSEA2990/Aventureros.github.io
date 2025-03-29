@@ -188,7 +188,7 @@ img{
     background:linear-gradient(rgb(255, 255, 255, 0.5),rgb(128, 233, 168),rgb(159, 255, 159));
     max-height: 80px;
     margin: 0;
-    margin-top: 5px;
+    margin-top: 3vh;
     margin-bottom: 5px;
     width:100%;
     height: 6vh;
@@ -248,10 +248,10 @@ a{
 
 .CajaV{
     width: 95%;
-    height: 60%;
+    height: 40%;
     background-color: rgb(224, 205, 216,0.7);
     text-align: center;
-    margin-top: 1vh;
+    margin-top: 2.5vh;
     margin-left: 2.5%;
     display: flex;
     align-items: center;
@@ -259,10 +259,11 @@ a{
 }
 
 .slide-container{
-    max-width: 800px;
-    width: 100%;
+    max-width: 1200px;
+    width: 95%;
     background-color: white;
     padding: 40px 8px;
+    margin-bottom: 0;
 }
 .slide-content{
     margin:20px 40px;
@@ -278,13 +279,13 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 14px;
+    padding: 5px 5px;
 }
 
 .image-content{
     position: relative;
     row-gap: 5px;
-    padding: 25px 5px;
+    padding: 15px 5px;
 }
 
 .overlay{
@@ -315,8 +316,8 @@ a{
 
 .card-image{
     position:relative;
-    height: 152px;
-    width: 152px;
+    height: 70px;
+    width: 70px;
     border-radius:30% ;
     background: #fff;
 }
@@ -331,7 +332,7 @@ a{
 }
 
 .Name{
-    font-size: 15px;
+    font-size: 2vh;
     font-weight: 500;
     color: gray;
 }
@@ -346,7 +347,7 @@ a{
     border:none;
     font-size: 16px;
     color: beige;
-    padding: 8px 16px;
+    padding: 8px 5px;
     background-color: blue;
     border-radius: 8px;
     margin: 5px;
