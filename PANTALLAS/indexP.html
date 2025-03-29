@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aventureros</title>
+    <!--CSS del proyecto-->
     <link rel="stylesheet" href="../Estilos.css">
+    <!--CSS SWIPER-->
+    <link rel="stylesheet" href="../swiper-bundle.min.css">
+
 </head>
 <body>
     <div class="Fondo">
@@ -13,11 +17,74 @@
         <div class="FondoI3">
             <img class="Image2" src="../IMAGENES/Panamá en blanco.png" alt ="PMA">
         </div>
-        <div>
+        <div class="CajaV">
+            <div class="slide-container swiper mySwiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img class="card-img" src="../IMAGENES/Panama.png" alt="Panama">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h5 class="Name">Panamá</h5>
+                                <h6 class="description">1 Viaje</h6> 
+                                <button class="buttonS">Entrar</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img class="card-img" src="../IMAGENES/PanamaOeste.png" alt="Panama">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h5 class="Name">Panamá Oeste</h5>
+                                <h6 class="description">1 Viaje</h6> 
+                                <button class="buttonS">Entrar</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img class="card-img" src="../IMAGENES/veraguaspng.png" alt="Panama">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h5 class="Name">Veraguas</h5>
+                                <h6 class="description">2 Viajes</h6> 
+                                <button class="buttonS">Entrar</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img class="card-img" src="../IMAGENES/cocle.png" alt="Panama">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h5 class="Name">Panamá</h5>
+                                <h6 class="description">5 Viajes</h6> 
+                                <button class="buttonS">Entrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="swiper-pagination"></div>
     </div>
     <div class="CajaBaja">
         <a href="../index.html">Salir</a>
     </div>
 </body>
+    <!--Script para el camnbio-->
+    <script src="../swiper-bundle.min.js"></script>
+    <script src="../JavaS.js"></script>
+
 </html>
