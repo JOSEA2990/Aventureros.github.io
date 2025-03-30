@@ -33,7 +33,7 @@ var swiper = new Swiper(".mySwiper", {
         grid: {
         rows: 2,
         },
-        spaceBetween: 30,
+        spaceBetween: 20,
         pagination: {
         el: ".swiper-pagination",
         clickable: true,

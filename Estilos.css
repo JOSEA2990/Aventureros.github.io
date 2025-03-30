@@ -142,6 +142,26 @@ h6{
     margin-bottom: 1vh;
 }
 
+h7{
+    margin:0;
+    margin-top:6vh;
+    position: fixed;
+    font-size: 2vh;
+    background-color: rgb(252, 243, 243,0.6);
+    border-radius: 0 25px 0 0;
+    padding-right: 20px;
+}
+
+h8{
+    margin:0;
+    margin-top: 1vh;
+    position: fixed;
+    font-size: 4vh;
+    background-color: rgb(252, 243, 243,0.6);
+    border-radius: 0 25px 0 0;
+    padding-right: 20px;
+}
+
 video{
     width: 80%;
     margin-top: 2vh;
@@ -348,7 +368,7 @@ a{
 .Name{
     font-size: 2vh;
     font-weight: 500;
-    color: gray;
+    color: rgb(0, 0, 0);
 }
 
 .description{
@@ -376,10 +396,17 @@ a{
 .lug{
     text-align: center;
     font-size: 18px;
-    background: #fff;
-    height: calc((100% - 30px) / 2) !important;
+    background: rgb(255, 255, 255,0.3);
+    height: calc((100% - 20px) / 2) !important;
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.ImagSlide{
+    margin: 0;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
 }
