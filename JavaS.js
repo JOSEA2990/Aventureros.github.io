@@ -29,7 +29,7 @@ var swiper = new Swiper(".slide-content", {
     });
 
 var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
+        slidesPerView: 2,
         grid: {
         rows: 2,
         },
