@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventureros</title>
+    <!--CSS del proyecto-->
+    <link rel="stylesheet" href="../Estilos.css">
+    <!--CSS SWIPER-->
+    <link rel="stylesheet" href="../swiper-bundle.min.css">
+
+</head>
+<body>
+    <div class="Fondo">
+        <!--Esto es un titulo--> 
+        <h2>Aventureros en Coclé</h2>
+        <div class="FondoI4">
+            <img class="Image2" src="../IMAGENES/Panamá en blanco - Cocle.png" alt ="PMA">
+        </div>
+        
+        <div class="CajaV swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="lug swiper-slide">
+                    <h7>GUZMAN</h7>
+                    <h8>2022</h8>
+                    <img class="ImagSlide" src="../IMAGENES/COCLE/GUZMAN/WhatsApp Image 2025-03-28 at 2.29.03 PM.jpeg" id="miImagen" style="cursor: pointer;">
+                    <script>
+                        document.getElementById('miImagen').addEventListener('click', function() {
+                            window.open('Lugares/indexGuz.html');
+                            window.close('indexCocl.html');});
+                    </script>
+                </div>
+                <div class="lug swiper-slide">
+                    <h7>LAS PAILAS</h7>
+                    <h8>2023</h8>
+                    <img class="ImagSlide" src="../IMAGENES/COCLE/POZOAZUL/WhatsApp Image 2025-03-28 at 2.29.07 PM.jpeg" id="miImagen2" style="cursor: pointer;">
+                    <script>
+                        document.getElementById('miImagen2').addEventListener('click', function() {
+                            window.open('Lugares/indexPailas.html');
+                            window.close('indexCocl.html');});
+                    </script>
+                </div>
+                <div class="lug swiper-slide">
+                    <h7>CABUYA</h7>
+                    <h8>2023</h8>
+                    <img class="ImagSlide" src="../IMAGENES/COCLE/CABUYA/WhatsApp Image 2025-03-28 at 2.29.09 PM (3).jpeg" alt="Descripción de la imagen" id="miImagen3" style="cursor: pointer;">
+                    <script>
+                        document.getElementById('miImagen3').addEventListener('click', function() {
+                            window.open('Lugares/indexCabuya.html');
+                            window.close('indexCocl.html');});
+                    </script>
+                </div>
+                <div class="lug swiper-slide">
+                    <h7>PENONOME</h7>
+                    <h8>2024</h8>
+                    <img class="ImagSlide" src="../IMAGENES/COCLE/PENONOME/WhatsApp Image 2025-04-03 at 4.46.49 PM.jpeg" alt="Descripción de la imagen" id="miImagen4" style="cursor: pointer;">
+                    <script>
+                        document.getElementById('miImagen4').addEventListener('click', function() {
+                            window.open('Lugares/indexPeno.html');
+                            window.close('indexCocl.html');});
+                    </script>
+                </div>
+                <div class="lug swiper-slide">
+                    <h7>EL COPÉ</h7>
+                    <h8>2025</h8>
+                    <img class="ImagSlide" src="../IMAGENES/COCLE/COPE/WhatsApp Image 2025-04-03 at 4.46.50 PM (2).jpeg" alt="Descripción de la imagen" id="miImagen5" style="cursor: pointer;">
+                    <script>
+                        document.getElementById('miImagen5').addEventListener('click', function() {
+                            window.open('Lugares/indexCope.html');
+                            window.close('indexCocl.html');});
+                    </script>
+                </div>
+                <div class="lug swiper-slide"><span class="NOviaje">Viaje Pendiente</span></div>
+                <div class="lug swiper-slide"><span class="NOviaje">Viaje Pendiente</span></div>
+                <div class="lug swiper-slide"><span class="NOviaje">Viaje Pendiente</span></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+    <div class="CajaBaja">
+        <a href="indexP.html">Regresar</a>
+    </div>
+</body>
+    <!--Script para el camnbio-->
+    <script src="../swiper-bundle.min.js"></script>
+    <script src="../JavaS.js"></script>
+</html>
