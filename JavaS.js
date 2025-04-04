@@ -1,6 +1,7 @@
 const users = [
     { user: 'MadeM', pass: '3091#' },
     { user: 'JoseM', pass: '2990#' },
+    { user: 'Aventureros', pass: '2025#' },
     ];
 
     const validation = (user, pass) => users.find( ( person ) => (person.user === user) && (person.pass === pass));

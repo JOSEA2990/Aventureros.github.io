@@ -154,6 +154,14 @@
         </div>
         <!--a href="../index.html">Salir</a-->
     </div>
+    <div class="CajaBaja2">
+        <button class="BotonR" type="button" id="cambiaraPestañaP" onclick="login()">Salir</button>
+        <script>
+            document.getElementById('cambiaraPestañaP').addEventListener('click', function() {
+            window.open('../index.html');
+            window.close('indexP.html');});
+        </script>
+    </div>
 </body>
     <!--Script para el camnbio-->
     <script src="../swiper-bundle.min.js"></script>
